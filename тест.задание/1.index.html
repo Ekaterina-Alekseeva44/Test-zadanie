@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Футболки</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/1.css">
+  <script defer src="js/1.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="subject"> МУЖСКИЕ ФУТБОЛКИ</h1>
+    <span id="total-count"></span>
+    <div class="container-cards">
+      <div class="card">
+        <div class="card-top">
+          <img src="img/111.jpg" alt="Мужская футболка" class="card-img">
+        </div>
+        <div class="card-bottom">
+          <h2 class="card-title">
+            Мужская футболка 3D&nbsp;логотипы
+          </h2>
+          <p class="card-desc">
+            Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+            140&nbsp;г/м2. Размер&nbsp;L.
+          </p>
+          <button class="btn js-open-modal" data-target="#modal">Подробнее</button>
+        </div>
+      </div>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="close-button" class="close">
+              <svg width="23" height="25" viewBox="0 0 23 25" fill="none">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                  fill="#333333" />
+                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+              </svg>
+            </button>
+            <h2 class="modal-title">Мужская футболка 3D&nbsp;логотипы</h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-body">
+              Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+              140&nbsp;г/м2. Размер&nbsp;L
+            </p>
+          </div>
+          <div class="counter">
+            <button id="decrement-btn" class="counter-element decrement">-</button>
+            <div id="counter-value" class="counter-element value"></div>
+            <button id="increment-btn" class="counter-element increment">+</button>
+          </div>
+          <div class="purchase">
+            <button type="button" class="btn-purchase" id="add-to-card">
+              <span class="button-text">В корзину</span>
+              <img src="img/icon.png" class="icon-img" alt="Корзина">
+              <span class="cart-count"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <img src="img/222.jpg" alt="Мужская футболка" class="card-img">
+        </div>
+        <div class="card-bottom">
+          <h2 class="card-title">
+            Мужская футболка хлопок базовая
+          </h2>
+          <p class="card-desc">
+            Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+            140&nbsp;г/м2. Размер&nbsp;L.
+          </p>
+          <button class="btn js-open-modal2" data-target="#modal2">Подробнее</button>
+        </div>
+      </div>
+      <div class="modal" id="modal2">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="close-button2" class="close">
+              <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                  fill="#333333" />
+                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+              </svg>
+            </button>
+            <h2 class="modal-title">Мужская футболка хлопок базовая</h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-body">
+              Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+              140&nbsp;г/м2. Размер&nbsp;L
+            </p>
+          </div>
+          <div class="counter">
+            <button id="decrement-btn2" class="counter-element decrement">-</button>
+            <div id="counter-value2" class="counter-element value"></div>
+            <button id="increment-btn2" class="counter-element increment">+</button>
+          </div>
+          <div class="purchase">
+            <button type="button" class="btn-purchase">
+              <span class="button-text">В корзину</span>
+              <img src="img/icon.png" class="icon-img" alt="Корзина">
+              <span class="cart-count" id="cart-count2"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <img src="img/333.jpg" alt="Мужская футболка" class="card-img">
+        </div>
+        <div class="card-bottom">
+          <h2 class="card-title">
+            Мужская футболка 3D&nbsp;фон с&nbsp;грибами
+          </h2>
+          <p class="card-desc">
+            Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+            140&nbsp;г/м2. Размер&nbsp;L.
+          </p>
+          <button class="btn js-open-modal3" data-target="#modal3">Подробнее</button>
+        </div>
+      </div>
+      <div class="modal" id="modal3">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="close-button3" class="close">
+              <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                  fill="#333333" />
+                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+              </svg>
+            </button>
+            <h2 class="modal-title">Мужская футболка 3D&nbsp;фон с&nbsp;грибами</h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-body">
+              Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+              140&nbsp;г/м2. Размер&nbsp;L.
+            </p>
+            <div class="counter">
+              <button id="decrement-btn3" class="counter-element decrement">-</button>
+              <div id="counter-value3" class="counter-element value"></div>
+              <button id="increment-btn3" class="counter-element increment">+</button>
+            </div>
+            <div class="purchase">
+              <button type="button" class="btn-purchase">
+                <span class="button-text">В корзину</span>
+                <img src="img/icon.png" class="icon-img" alt="Корзина">
+                <span class="cart-count" id="cart-count3"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <img src="img/444.jpg" alt="Мужская футболка" class="card-img">
+        </div>
+        <div class="card-bottom">
+          <h2 class="card-title">
+            Мужская футболка без дизайна
+          </h2>
+          <p class="card-desc">
+            Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+            140&nbsp;г/м2. Размер&nbsp;L.
+          </p>
+          <button class="btn js-open-modal4" data-target="#modal4">Подробнее</button>
+        </div>
+      </div>
+      <div class="modal" id="modal4">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="close-button4" class="close">
+              <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                  fill="#333333" />
+                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+              </svg>
+            </button>
+            <h2 class="modal-title">Мужская футболка без дизайна</h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-body">
+              Выполнена из&nbsp;синтетического гипоаллергенного материала полиэфир, приятного на&nbsp;ощупь, плотностью
+              140&nbsp;г/м2. Размер&nbsp;L.
+            </p>
+          </div>
+          <div class="counter">
+            <button id="decrement-btn4" class="counter-element decrement">-</button>
+            <div id="counter-value4" class="counter-element value">0</div>
+            <button id="increment-btn4" class="counter-element increment">+</button>
+          </div>
+          <div class="purchase">
+            <button type="button" class="btn-purchase">
+              <span class="button-text">В корзину</span>
+              <img src="img/icon.png" class="icon-img" alt="Корзина">
+              <span class="cart-count" id="cart-count4"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
