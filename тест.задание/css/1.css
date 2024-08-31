@@ -140,7 +140,8 @@ body {
     border: 5px solid #7B1FA2;
     width: 600px;
     max-width: 80%;
-    max-height: 50%;
+    height: 285px;
+    min-height: 250px;
     word-wrap: break-word;
     box-shadow: 0 4px 8px 0 rgba(102, 101, 101, 0.2);
     animation-name: animatetop;
@@ -300,6 +301,22 @@ svg {
 }
 
 /*медиа-теги */
+@media screen and (max-width: 675px) {
+    .modal-title {
+        font-size: 16px;
+    }
+ 
+    svg {
+        width: 15px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 627px) {
+    .modal-content {
+        height: 260px;
+    }
+}
 
 @media screen and (max-width: 625px) {
     .modal-title {
@@ -317,7 +334,7 @@ svg {
 
     .close {
         top: 9px;
-    }
+}
 
     .counter-element {
         padding-top: 5px;
@@ -337,21 +354,6 @@ svg {
     }
 }
 
-@media screen and (max-width: 478px) {
-    .modal-title {
-        font-size: 16px;
-    }
-
-    svg {
-        width: 15px;
-        height: 18px;
-    }
-
-    .btn-purchase {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 452px) {
     .modal-title {
         font-size: 14px;
@@ -364,6 +366,21 @@ svg {
 
     .close {
         top: 11px;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .modal-title {
+        font-size: 13px;
+    }
+ 
+    svg {
+        width: 12px;
+        height: 15px;
+    }
+ 
+    .close {
+        top: 9px;
     }
 }
 
@@ -391,15 +408,9 @@ svg {
         width: 10px;
         height: 13px;
     }
-}
-
-@media screen and (max-width: 357px) {
-    .modal-title {
-        font-size: 13px;
-    }
-
     .close {
-        right: 2px;
+        top: 9px;
+        right: 1px;
     }
 }
 
@@ -411,6 +422,14 @@ svg {
 }
 
 @media screen and (max-width: 357px) {
+    .modal-title {
+        font-size: 13px;
+    }
+
+    .close {
+        right: 2px;
+    }
+
     .btn-purchase {
         height: 58px;
     }
