@@ -1,4 +1,4 @@
-//Открыть и закрыть первое окно//
+//Открыть и закрыть первое окно
 
 document.addEventListener('DOMContentLoaded', () => {
   const openButton = document.querySelector('.js-open-modal');
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
-//Открыть и закрыть второе окно//
+//Открыть и закрыть второе окно
 
 document.addEventListener('DOMContentLoaded', () => {
   const openButton = document.querySelector('.js-open-modal2');
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
-//Открыть и закрыть третье окно//
+//Открыть и закрыть третье окно
 
 document.addEventListener('DOMContentLoaded', () => {
   const openButton = document.querySelector('.js-open-modal3');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
-//Открыть и закрыть четвертое окно//
+//Открыть и закрыть четвертое окно
 
 document.addEventListener('DOMContentLoaded', () => {
   const openButton = document.querySelector('.js-open-modal4');
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
-//1-й счетчик//
+//1-й счетчик
 
 let counter = 1;
 const counterValue = document.getElementById('counter-value');
@@ -96,7 +96,7 @@ function reset() {
 }
 reset();
 
-//2-й счетчик/
+//2-й счетчик
 
 let counter2 = 1;
 const counterValue2 = document.getElementById('counter-value2');
@@ -133,7 +133,7 @@ function reset2() {
 }
 reset2();
 
-//3-й счетчик//
+//3-й счетчик
 
 let counter3 = 1;
 const counterValue3 = document.getElementById('counter-value3');
@@ -169,7 +169,7 @@ function reset3() {
 }
 reset3();
 
-//4-й счетчик//
+//4-й счетчик
 
 let counter4 = 1;
 const counterValue4 = document.getElementById('counter-value4');
@@ -212,7 +212,7 @@ document.getElementById('add-to-card').addEventListener('click', function () {
   }, 2000);
 })
 
-//Меняется название при нажатие на все корзины на "Товар добавлен"//
+//Меняется название при нажатие на все корзины на "Товар добавлен"
 
 document.querySelectorAll('.btn-purchase').forEach(function (button) {
   button.addEventListener('click', function () {
