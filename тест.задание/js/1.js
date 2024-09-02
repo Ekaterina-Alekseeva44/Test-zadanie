@@ -69,8 +69,12 @@ const decrementBtn = document.getElementById('decrement-btn');
 const cartCountSpan = document.querySelector('.cart-count');
 function updateCount() {
   incrementBtn.innerText = "+";
+  if (counter > 0) {
   cartCountSpan.innerText = counter;
+  } else {
+    cartCountSpan.innerText = '';
 }
+  }
 incrementBtn.addEventListener('click', () => {
   if (counter < 99) {
     counter++;
@@ -106,8 +110,12 @@ const cartCountSpan2 = document.getElementById('cart-count2');
 
 function updateCount2() {
   incrementBtn2.innerText = "+";
+  if (counter2 > 0) {
   cartCountSpan2.innerText = counter2;
-}
+} else {
+    cartCountSpan2.innerText = '';
+    }
+  }
 incrementBtn2.addEventListener('click', () => {
   if (counter2 < 99) {
     counter2++;
@@ -142,8 +150,12 @@ const decrementBtn3 = document.getElementById('decrement-btn3');
 const cartCountSpan3 = document.getElementById('cart-count3');
 function updateCount3() {
   incrementBtn3.innerText = "+";
+  if (counter3 > 0) {
   cartCountSpan3.innerText = counter3;
-}
+} else {
+    cartCountSpan3.innerText = '';
+    }
+  }
 incrementBtn3.addEventListener('click', () => {
   if (counter3 < 99) {
     counter3++;
@@ -178,8 +190,12 @@ const decrementBtn4 = document.getElementById('decrement-btn4');
 const cartCountSpan4 = document.getElementById('cart-count4');
 function updateCount4() {
   incrementBtn4.innerText = "+";
+  if (counter4 > 0) {
   cartCountSpan4.innerText = counter4;
-}
+} else {
+    cartCountSpan4.innerText = '';
+    }
+  }
 incrementBtn4.addEventListener('click', () => {
   if (counter4 < 99) {
     counter4++;
